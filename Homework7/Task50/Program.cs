@@ -72,6 +72,7 @@ int [] FindTargets(int [,] array, int count, int target)
 // Метод Выводит координаты на экран
 void ShowCoords(int[] array)
 {
+    if (array.Length == 0) Console.Write("нет такого элемента");
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
