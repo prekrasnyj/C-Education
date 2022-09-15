@@ -3,6 +3,7 @@
 // значения b1, k1, b2 и k2 задаются пользователем.
 
 //Метод проверяет пересекаются ли прямые
+
 void SearchIntersectionPoints(double b1, double k1, double b2, double k2)
 {
     if (k1 == k2 & b1 == b2) { Console.WriteLine("Прямые совпадают"); }
